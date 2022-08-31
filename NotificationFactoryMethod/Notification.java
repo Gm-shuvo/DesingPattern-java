@@ -1,5 +1,5 @@
 package NotificationFactoryMethod;
 
-public class Notification {
-  
+public interface Notification {
+  void notifyUsers();
 }
